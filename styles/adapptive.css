@@ -19,6 +19,9 @@
     }
 }
 @media only screen and (max-width: 992px){
+    .main-title{
+        padding-top: 10%;
+    }
     .info img{
         width: 18%;
     }   
@@ -47,14 +50,23 @@
     }
 }
 @media only screen and (max-width: 576px){
+    .main-title{
+        padding-top: 10%;
+    }
     h1{
-        font-size: 30px;
+        font-size: 45px;
     }
     h5{
-        font-size: 6px;
+        font-size: 10px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
     }
     .info{
-        width: 80%;
+        width: 90%;
         margin-top: 20px;
     }
     .info-text{

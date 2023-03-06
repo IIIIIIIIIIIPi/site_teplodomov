@@ -64,7 +64,6 @@ h1{
 }
 h5{
     font-family: header-h5;
-    position: absolute;
     color: var(--color_header_transparent);
     font-size: 20px;
 }
