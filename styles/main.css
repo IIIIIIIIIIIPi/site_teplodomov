@@ -1,93 +1,103 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
-
-/* переменные */
 :root{
-    --index: calc(1vw+1vh);
-    --color_main_text: rgb(232, 232, 232);
-    --color_header_transparent: rgba(232, 232, 232,.3);
+    --background_color: rgb(16, 16, 16);
+    --main_text_color:rgb(220, 220, 220);;
 }
 
-
-/* шрифты */
 @font-face{
-    font-family: "header-h1";
+    font-family: outfit-h1;
     src: url(../fonts/Outfit-Bold.ttf);
 }
+
 @font-face{
-    font-family: "header-h5";
+    font-family: manrope-h4;
     src: url(../fonts/Manrope-ExtraLight.ttf);
 }
+
 @font-face{
-    font-family: "header-info-h2";
+    font-family: manrope-h2;
     src: url(../fonts/Manrope-Bold.ttf);
 }
+
 @font-face{
-    font-family: "header-info-p";
+    font-family: manrope-p;
     src: url(../fonts/Manrope-Regular.ttf);
 }
 
-/* стили header */
+h1{
+    font-family: "outfit-h1";
+    font-size: 100px;
+}
+h4{
+    font-family: "manrope-h4";
+}
+h2{
+    font-family: "manrope-h2";
+}
+p{
+    font-family: manrope-p;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: var(--main_text_color);
+}
+
 .header{
     width: 100vw;
     height: 100vh;
-    background: url(../images/header/1.jpg);
+    background: url(../images/header/header_background.jpg);
     background-size: cover;
     background-position: center;
 }
-.header-box-black{
-    width: 100vw;
-    height: 100vh;
+
+.black-box{
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, .8);
 }
 
-.container{
+.conteiner{
     max-width: 1200px;
     margin: 0 auto;
-    height: 100%;
+    text-align: center;
 }
-.main-title{
+
+.headline{
+    padding-top: 8%;
+    position: relative;
     width: min-content;
     margin: 0 auto;
-    padding-top: 15%;
-    text-align: center;
 }
-h1{
-    font-family: header-h1;
-    color: var(--color_main_text);
-    font-size: 100px;
-}
-h5{
-    font-family: header-h5;
-    color: var(--color_header_transparent);
-    font-size: 20px;
-}
-h2{
-    font-family: "header-info-h2";
-
-}
-p{
-    font-family: "header-info-p";
+.sub-t{
+    position: absolute;
+    font-size: 24px;
 }
 
-.info-block{
-    padding-top: 6%;
-    text-align: center;
-    color: white;
+.advantage-info{
+    padding-top: 4%;
 }
-.info{
-    display: inline-block;
-    width: 28%;
-    margin: 10px;
-}
-.img-info{
+
+.adv__item{
     width: 30%;
+    display: inline-block;
 }
-.info-text p{
+
+.adv__item p{
     text-align: justify;
+    margin: 2%;
+}
+
+.adv__image{
+    width: 50%;
+}
+
+.gallery{
+    width: 100vw;
+    height: 100vh;
 }

@@ -1,76 +1,160 @@
-/* 1200 992 768 576  */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  /* Styles */
+}
 
-/* 1200 */
-@media only screen and (max-width: 1200px){
-    h1{
-        font-size: 50px;
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width: 320px) {
+    .headline{
+        margin-top: 8%;
     }
-    h5{
+    .advantage-info{
+        margin-top: 3%;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p{
         font-size: 10px;
     }
-    .info img{
-        width: 20%;
-    }   
+    h1{
+        font-size: 35px;
+    }
+    .sub-t{
+        opacity: 0;
+    }
+    .adv__item{
+        width: 90%;
+        margin: 3% auto;
+    }
+    .adv__image{
+        width: 25%;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .headline{
+        margin-top: 6%;
+    }
+    .advantage-info{
+        margin-top: 3%;
+    }
     h2{
+        font-size: 30px;
+    }
+    p{
         font-size: 18px;
     }
-    p{
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 992px){
-    .main-title{
-        padding-top: 10%;
-    }
-    .info img{
-        width: 18%;
-    }   
-    h2{
-        font-size: 14px;
-    }
-    p{
-        font-size: 10px;
-    }
-}
-@media only screen and (max-width: 768px){
     h1{
-        font-size: 40px;
+        font-size: 75px;
     }
-    h5{
-        font-size: 8px;
+    .sub-t{
+        font-size: 18px;
     }
-    .info img{
-        width: 18%;
-    }   
-    h2{
-        font-size: 12px;
+    .adv__item{
+        width: 40%;
+        margin-left: 3%;
     }
-    p{
-        font-size: 8px;
+    .adv__image{
+        width: 38%;
     }
 }
-@media only screen and (max-width: 576px){
-    .main-title{
-        padding-top: 10%;
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .headline{
+        margin-top: 4%;
+    }
+    .advantage-info{
+        margin-top: 4%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
     }
     h1{
-        font-size: 45px;
+        font-size: 100px;
     }
-    h5{
-        font-size: 10px;
+    .sub-t{
+        font-size: 24px;
+    }
+    .adv__item{
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .adv__image{
+        width: 38%;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .headline{
+        margin-top: 6%;
+    }
+    .advantage-info{
+        margin-top: 3%;
     }
     h2{
-        font-size: 14px;
+        font-size: 30px;
     }
     p{
-        font-size: 10px;
+        font-size: 18px;
     }
-    .info{
-        width: 90%;
-        margin-top: 20px;
+    h1{
+        font-size: 75px;
     }
-    .info-text{
-        width: 200px;
-        margin: auto;
+    .sub-t{
+        font-size: 18px;
+    }
+    .adv__item{
+        width: 40%;
+        margin-left: 3%;
+    }
+    .adv__image{
+        width: 38%;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width: 1824px) {
+    .headline{
+        margin-top: 6%;
+    }
+    .advantage-info{
+        margin-top: 3%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 150px;
+    }
+    .sub-t{
+        font-size: 36px;
+    }
+    .adv__item{
+        margin-left: 3%;
+        width: 30%;
     }
 }
