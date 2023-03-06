@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* переменные */
+:root{
+    --index: calc(1vw+1vh);
+    --color_main_text: rgb(232, 232, 232);
+    --color_header_transparent: rgba(232, 232, 232,.3);
+}
+
+
+/* шрифты */
+@font-face{
+    font-family: "header-h1";
+    src: url(../fonts/Outfit-Bold.ttf);
+}
+@font-face{
+    font-family: "header-h5";
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+}
+@font-face{
+    font-family: "header-info-h2";
+    src: url(../fonts/Manrope-Bold.ttf);
+}
+@font-face{
+    font-family: "header-info-p";
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+
+/* стили header */
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/header/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-box-black{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.main-title{
+    width: min-content;
+    margin: 0 auto;
+    padding-top: 15%;
+    text-align: center;
+}
+h1{
+    font-family: header-h1;
+    color: var(--color_main_text);
+    font-size: 100px;
+}
+h5{
+    font-family: header-h5;
+    position: absolute;
+    color: var(--color_header_transparent);
+    font-size: 20px;
+}
+h2{
+    font-family: "header-info-h2";
+
+}
+p{
+    font-family: "header-info-p";
+}
+
+.info-block{
+    padding-top: 6%;
+    text-align: center;
+    color: white;
+}
+.info{
+    display: inline-block;
+    width: 28%;
+    margin: 10px;
+}
+.img-info{
+    width: 30%;
+}
+.info-text p{
+    text-align: justify;
+}

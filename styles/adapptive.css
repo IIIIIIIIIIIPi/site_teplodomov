@@ -1,0 +1,64 @@
+/* 1200 992 768 576  */
+
+/* 1200 */
+@media only screen and (max-width: 1200px){
+    h1{
+        font-size: 50px;
+    }
+    h5{
+        font-size: 10px;
+    }
+    .info img{
+        width: 20%;
+    }   
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .info img{
+        width: 18%;
+    }   
+    h2{
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 8px;
+    }
+    .info img{
+        width: 18%;
+    }   
+    h2{
+        font-size: 12px;
+    }
+    p{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 576px){
+    h1{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 6px;
+    }
+    .info{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .info-text{
+        width: 200px;
+        margin: auto;
+    }
+}
